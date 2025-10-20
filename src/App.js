@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
+import Tours from './components/Tours'
 const App = () => {
   return (
     <>
-      <Navbar />
+      <Tours />
+      
     </>
   )
 }
