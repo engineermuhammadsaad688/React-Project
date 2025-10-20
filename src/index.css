@@ -1,0 +1,37 @@
+/*
+  Global styles for the Birthday Reminder app.
+
+  This file contains small, app-wide rules such as resetting the page
+  margin, the default background colour and centering the app container.
+  Keep this file lightweight — component-specific styles belong inside
+  individual component CSS/JS files.
+*/
+
+/* Reset default page margin and create a centered full-viewport container.
+   - margin: remove browser default spacing
+   - background-color: app background (hot pink)
+   - height/width: ensure container fills viewport for centering
+   - display:flex + align/justify: center child content both axes
+   - font-family: use system/stacked fallbacks for consistent typography
+   - font-smoothing: improve legibility on different platforms */
+body {
+  margin: 0;
+  background-color: #C71585;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Code blocks and inline code should use a monospace stack for alignment
+   and consistent character width. Keep this rule minimal so components can
+   override it when they need a specific code style. */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
