@@ -1,0 +1,7 @@
+.underline {
+  width: 100px;          
+  height: 5px;         
+  background-color: #ff0066;
+  margin: 6px auto;     
+  border-radius: 3px;    
+}
